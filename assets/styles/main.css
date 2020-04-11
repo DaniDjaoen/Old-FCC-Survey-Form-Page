@@ -1,0 +1,140 @@
+body {
+    background-image: url(https://www.albufera-energystorage.com/wp-content/uploads/2016/10/IMG_146185.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    padding: 0 80px;
+  }
+  header {
+    border-bottom: 5px double black;
+  }
+  #title {
+    font-size: 32px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: monospace;
+    margin: 20px 0 ;
+  }
+  #description {
+    font-family: monospace;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 10px 0;
+    padding: 0 10px;
+  }
+  main {
+    display: inline-block;
+    background-color: hsla(0, 0%, 0%, 0.3);
+    width: 100%;
+  }
+  .form-rows {
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    margin: 20px 0;
+    padding: 0 10px;
+  }
+  .form-questions {
+    width: 50%;
+    text-align: right;
+    margin-right: 20px;
+  }
+  .form-inputs {
+    width: 50%;
+  }
+  fieldset {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+  }
+  label:hover {
+    cursor: pointer;
+  }
+  form {
+    font-size: 16px;
+    font-family: cursive;
+  }
+  textarea {
+    width: 90%;
+  }
+  button {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 5px 20px;
+    font-weight: bold;
+  }
+  button:hover {
+    background-color: dimgrey;
+    cursor: pointer;
+  }
+  @media (max-width: 600px){
+    main {
+      
+    }
+    .form-rows {
+      flex-direction: column;
+      align-items: center;
+    }
+    .form-questions {
+      width: 100%;
+      margin: 0;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .form-inputs {
+      width: 100%;
+      margin: 0;
+    }
+    fieldset {
+      flex-direction: column;
+      align-items: center;
+    }
+    .form-recommendations {
+      display: block;
+      margin: 0 auto;
+      max-width: 50%;
+    }
+    .form-improve {
+      display: block;
+      margin: 0 auto;
+      max-width: 50%;
+    }
+    input {
+      text-align: center;
+    }
+    #name,
+    #email,
+    #number,
+    #dropdown,
+    #favorite {
+      display: block;
+      margin: 0 auto;
+    }
+    textarea {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  @media (max-width: 400px) {
+    body {
+      padding: 0 20px;
+    }
+  }
+  footer p {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+  }
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  footer a:hover {
+    color: green;
+  }
